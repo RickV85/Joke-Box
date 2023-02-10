@@ -12,14 +12,16 @@ class App extends React.Component {
   }
 
   componentDidMount = () => {
+    console.log("ComponentDidMount");
     this.getNewJoke();
   }
 
-  componentDidUpdate = () => {
-    console.log(this.state);
-  }
+  // componentDidUpdate = () => {
+  //   console.log(this.state);
+  // }
 
   getNewJoke = () => {
+    console.log("getNewJoke ran");
     this.setState({ currentJokeAnswerDisplay: "" })
     getOneRandomJokeAny()
     .then(data => {

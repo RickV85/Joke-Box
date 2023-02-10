@@ -34,7 +34,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <main>
+      <main className='main'>
         <h1>Welcome to Joke Box</h1>
         <h2>Here's a random joke for ya boss!</h2>
         <p>{this.state.currentJoke.setup}</p>

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/joke-box/static/css/main.ad2cd8b8.css",
-    "main.js": "/joke-box/static/js/main.de1619d5.js",
-    "static/js/787.e0f66485.chunk.js": "/joke-box/static/js/787.e0f66485.chunk.js",
-    "index.html": "/joke-box/index.html",
-    "main.ad2cd8b8.css.map": "/joke-box/static/css/main.ad2cd8b8.css.map",
-    "main.de1619d5.js.map": "/joke-box/static/js/main.de1619d5.js.map",
-    "787.e0f66485.chunk.js.map": "/joke-box/static/js/787.e0f66485.chunk.js.map"
+    "main.css": "/Joke-Box/static/css/main.ad2cd8b8.css",
+    "main.js": "/Joke-Box/static/js/main.93346c91.js",
+    "static/js/787.e0f66485.chunk.js": "/Joke-Box/static/js/787.e0f66485.chunk.js",
+    "index.html": "/Joke-Box/index.html",
+    "main.ad2cd8b8.css.map": "/Joke-Box/static/css/main.ad2cd8b8.css.map",
+    "main.93346c91.js.map": "/Joke-Box/static/js/main.93346c91.js.map",
+    "787.e0f66485.chunk.js.map": "/Joke-Box/static/js/787.e0f66485.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad2cd8b8.css",
-    "static/js/main.de1619d5.js"
+    "static/js/main.93346c91.js"
   ]
 }

@@ -1,6 +1,6 @@
 
 const getOneRandomJokeAny = () => {
-  return fetch('https://v2.jokeapi.dev/joke/Any?type=twopart')
+  return fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart')
   .then(response => {
     if (response.ok) {
       return response.json();

@@ -1,12 +1,15 @@
 import './App.css';
 import React from 'react';
 import getOneRandomJokeAny from '../APICalls';
+import CurrentJoke from './AppInterfaces';
 
-class App extends React.Component {
-  constructor() {
-    super()
+
+
+class App extends React.Component<{}, {currentJoke: CurrentJoke, currentJokeAnswerDisplay: string}> {
+  constructor(props: any) {
+    super(props)
     this.state = {
-      currentJoke: "",
+      currentJoke: {setup: '', delivery: ''},
       currentJokeAnswerDisplay: "",
     }
   }
